@@ -11,7 +11,8 @@ SRC_TEST			=	src/my_strlen.c
 
 SRC					=	$(SRC_MAIN) $(SRC_TEST)
 
-TESTS				=	tests/test_my_strlen.c
+TESTS				=	tests/test_my_strlen.c		\
+						tests/test_write.c
 
 CFLAGS				=	-Wall -Wextra
 
